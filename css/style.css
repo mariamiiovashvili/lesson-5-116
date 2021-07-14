@@ -1,12 +1,17 @@
+.section-style {
+	margin-top: 150px;
 
+}
 
 .header-wrapper {
-	display: inline-block;
+	/*display: inline-block;*/
 	position: fixed;
 	padding: 20px;
 	top: 0;
 	left: 0;
 	width: 100%;
+	background-color: lightblue;
+	z-index: 99;
 
 	}
 .logo {
@@ -20,6 +25,11 @@
 	margin-right: 92px;
 	display: inline-block;
 }
+
+.color {
+	color: #343638;
+	opacity: 100%;
+}
 .nav-li-display {
 	display: inline-block;
 }
@@ -29,10 +39,12 @@
 	
 }
 .nav-li {
+	font-family: 'Crimson Text';
 
 	font-size: 11px;
 	font-weight: bold;
-	color: #343638;
+	/*color: #343638;*/
+	opacity: 50%;
 	margin-right: 27px;
 }
 .nav-logo {
@@ -154,7 +166,7 @@
 	background-color: #707070;
 }
 .footer-nav {
-	width: 486.09px;
+	width: 100%;
 	height: 84px;
 	margin-top: 58px;
 	margin-left: 142px;
@@ -173,4 +185,17 @@
 	font-weight: bold;
 	color: #CBD0D3;
 	margin-bottom: 8px;
+
+}
+.footer-list {
+	margin: 0 70px;
+}
+.footer-p {
+	vertical-align: top;
+	font-size: 11px;
+	color: #CBD0D3;
+	margin: 0 104px;
+}
+.footerlog {
+	margin-right: 32px;
 }
